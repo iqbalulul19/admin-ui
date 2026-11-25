@@ -1,6 +1,6 @@
 import "./App.css";
 import SignInPage from "./pages/signIn";
-import SignUpPage from "./pages/signup";
+import SignUpPage from "./pages/signUp";
 import ErrorPage from "./pages/error";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function App() {
     {
       path: "/",
       element: (
-        	<div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center min-h-screen">
           <Link to="/login" className="p-2 m-5 bg-primary text-white">
             Login
           </Link>
